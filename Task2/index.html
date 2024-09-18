@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive UI Components</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content">
+      <span class="close-button" id="closeModal">&times;</span>
+      <h2>Modal</h2>
+      <p>My Name is Muhammad Arbaz. I'm Junior Developer</p>
+    </div>
+  </div>
+
+  <button id="openModal">Open Modal</button>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <div class="accordion-item">
+      <button class="accordion-header">Section 1</button>
+      <div class="accordion-body">
+        <p>I'm Doing BSCS and I Final Year.</p>
+      </div>
+    </div>
+
+  <!-- Slider  -->
+  <div class="slider-container">
+    <input type="range" min="0" max="100" value="26" id="slider">
+    <span id="sliderValue">26</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
